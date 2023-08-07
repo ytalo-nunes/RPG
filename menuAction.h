@@ -1,0 +1,2 @@
+void lifeBar();
+void MenuDeAcao();
