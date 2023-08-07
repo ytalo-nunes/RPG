@@ -40,7 +40,7 @@ int main(){
             MenuDeAcao(); 
                  break;
         case 3:
-            cout << "Dormiu morreu teu cu eh meu\n";
+            cout << "ZZZZZZZZZZZZZZZ\n";
                 system("pause");
         default:
             cout << "Digite uma opcao valida";

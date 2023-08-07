@@ -7,6 +7,7 @@ void lifeBar(){
 };
 void MenuDeAcao() {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    int action;
 
     std::cout << "Que acao deseja realizar:\n";
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
@@ -23,5 +24,6 @@ void MenuDeAcao() {
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
     
     std::cout << "4>Fugir." << std::endl << std::endl;
+
 
 }
